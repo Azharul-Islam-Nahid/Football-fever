@@ -33,10 +33,6 @@ body {
   margin-top: 30px;
 }
 
-.marcelo {
-  margin-top: 33px;
-  margin-left: 100px;
-}
 
 .blog-heading {
   color: #ffffff;
@@ -50,6 +46,11 @@ body {
 }
 
 .watch-button {
+  margin-left: 100px;
+}
+
+.marcelo {
+  margin-top: 33px;
   margin-left: 100px;
 }
 
@@ -73,10 +74,16 @@ body {
 
 
 
+.container-elements {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
 .blog-2 {
   background-color: #161616;
   border-radius: 5px;
   margin-top: 100px;
+  margin-right: 15px;
   margin-left: 70px;
   width: 236px;
   height: 200px;
@@ -85,17 +92,9 @@ body {
   justify-items: center;
 }
 
-.blog-3 {
-  margin-top: 100px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  column-gap: 20px;
-  row-gap: 20px;
-}
-
-.container-elements {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+#nav-link {
+  background-color: #dd0000;
+  text-decoration: none;
 }
 
 .div-element {
@@ -110,14 +109,24 @@ body {
   align-content: center;
 }
 
-#nav-link {
-  background-color: #dd0000;
-  text-decoration: none;
-}
-
 .div-element>a {
   text-decoration: none;
   color: #ffffff;
+}
+
+
+/* <!----------------------- */
+/* ----Video Content style--- */
+/* ------------------------> */
+
+
+.blog-3 {
+  margin-top: 100px;
+  margin-right: 150px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+  row-gap: 20px;
 }
 
 .link-transfer>button>a {
@@ -129,6 +138,37 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+}
+
+
+/*------------------------
+--Upcoming matches style--  
+------------------------*/
+
+
+
+.blog-matches {
+  margin-right: 200px;
+  margin-top: 100px;
+}
+
+.match-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 20px;
+}
+
+
+.schedule-container {
+  width: 312px;
+  height: 242px;
+  display: grid;
+  justify-items: center;
+
+}
+
+.flags {
+  display: flex;
 }
 
 
